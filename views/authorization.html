@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Kurmangazieva lab 3</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>Authorization</h1>
+        <form method="post">
+            
+            Login: (admin) 
+			<br></br>
+			<input name="login" type="text" minlength="5" maxlength="15" required />
+			<br></br>
+            Password: (admin)
+			<br></br>
+			<input name="password" type="password" minlength="5" maxlength="15" autocomplete="off" required />
+            <br></br>
+			<input type="submit" value="Sign In" class="btn" formaction="/v1/authorization"  />
+            
+
+        </form>
+    </body>
+</html>
